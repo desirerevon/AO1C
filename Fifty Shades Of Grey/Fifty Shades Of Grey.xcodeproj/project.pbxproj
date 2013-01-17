@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0147212616A7874A00D19F5D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0147212516A7874A00D19F5D /* UIKit.framework */; };
+		0147212816A7874A00D19F5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0147212716A7874A00D19F5D /* Foundation.framework */; };
+		0147212A16A7874A00D19F5D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0147212916A7874A00D19F5D /* CoreGraphics.framework */; };
+		0147213016A7874A00D19F5D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0147212E16A7874A00D19F5D /* InfoPlist.strings */; };
+		0147213216A7874A00D19F5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0147213116A7874A00D19F5D /* main.m */; };
+		0147213616A7874A00D19F5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0147213516A7874A00D19F5D /* AppDelegate.m */; };
+		0147213816A7874A00D19F5D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147213716A7874A00D19F5D /* Default.png */; };
+		0147213A16A7874A00D19F5D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147213916A7874A00D19F5D /* Default@2x.png */; };
+		0147213C16A7874A00D19F5D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147213B16A7874A00D19F5D /* Default-568h@2x.png */; };
+		0147213F16A7874A00D19F5D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0147213D16A7874A00D19F5D /* MainStoryboard.storyboard */; };
+		0147214216A7874A00D19F5D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0147214116A7874A00D19F5D /* ViewController.m */; };
+		0147214A16A7874A00D19F5D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0147214916A7874A00D19F5D /* SenTestingKit.framework */; };
+		0147214B16A7874A00D19F5D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0147212516A7874A00D19F5D /* UIKit.framework */; };
+		0147214C16A7874A00D19F5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0147212716A7874A00D19F5D /* Foundation.framework */; };
+		0147215416A7874A00D19F5D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0147215216A7874A00D19F5D /* InfoPlist.strings */; };
+		0147215716A7874A00D19F5D /* Fifty_Shades_Of_GreyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0147215616A7874A00D19F5D /* Fifty_Shades_Of_GreyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0147214D16A7874A00D19F5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0147211816A7874A00D19F5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0147212016A7874A00D19F5D;
+			remoteInfo = "Fifty Shades Of Grey";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0147212116A7874A00D19F5D /* Fifty Shades Of Grey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fifty Shades Of Grey.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0147212516A7874A00D19F5D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0147212716A7874A00D19F5D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0147212916A7874A00D19F5D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0147212D16A7874A00D19F5D /* Fifty Shades Of Grey-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fifty Shades Of Grey-Info.plist"; sourceTree = "<group>"; };
+		0147212F16A7874A00D19F5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0147213116A7874A00D19F5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0147213316A7874A00D19F5D /* Fifty Shades Of Grey-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fifty Shades Of Grey-Prefix.pch"; sourceTree = "<group>"; };
+		0147213416A7874A00D19F5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0147213516A7874A00D19F5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0147213716A7874A00D19F5D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0147213916A7874A00D19F5D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0147213B16A7874A00D19F5D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0147213E16A7874A00D19F5D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		0147214016A7874A00D19F5D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0147214116A7874A00D19F5D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0147214816A7874A00D19F5D /* Fifty Shades Of GreyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fifty Shades Of GreyTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0147214916A7874A00D19F5D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0147215116A7874A00D19F5D /* Fifty Shades Of GreyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fifty Shades Of GreyTests-Info.plist"; sourceTree = "<group>"; };
+		0147215316A7874A00D19F5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0147215516A7874A00D19F5D /* Fifty_Shades_Of_GreyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fifty_Shades_Of_GreyTests.h; sourceTree = "<group>"; };
+		0147215616A7874A00D19F5D /* Fifty_Shades_Of_GreyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fifty_Shades_Of_GreyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0147211E16A7874A00D19F5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0147212616A7874A00D19F5D /* UIKit.framework in Frameworks */,
+				0147212816A7874A00D19F5D /* Foundation.framework in Frameworks */,
+				0147212A16A7874A00D19F5D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0147214416A7874A00D19F5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0147214A16A7874A00D19F5D /* SenTestingKit.framework in Frameworks */,
+				0147214B16A7874A00D19F5D /* UIKit.framework in Frameworks */,
+				0147214C16A7874A00D19F5D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0147211616A7874A00D19F5D = {
+			isa = PBXGroup;
+			children = (
+				0147212B16A7874A00D19F5D /* Fifty Shades Of Grey */,
+				0147214F16A7874A00D19F5D /* Fifty Shades Of GreyTests */,
+				0147212416A7874A00D19F5D /* Frameworks */,
+				0147212216A7874A00D19F5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0147212216A7874A00D19F5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0147212116A7874A00D19F5D /* Fifty Shades Of Grey.app */,
+				0147214816A7874A00D19F5D /* Fifty Shades Of GreyTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0147212416A7874A00D19F5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0147212516A7874A00D19F5D /* UIKit.framework */,
+				0147212716A7874A00D19F5D /* Foundation.framework */,
+				0147212916A7874A00D19F5D /* CoreGraphics.framework */,
+				0147214916A7874A00D19F5D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0147212B16A7874A00D19F5D /* Fifty Shades Of Grey */ = {
+			isa = PBXGroup;
+			children = (
+				0147213416A7874A00D19F5D /* AppDelegate.h */,
+				0147213516A7874A00D19F5D /* AppDelegate.m */,
+				0147213D16A7874A00D19F5D /* MainStoryboard.storyboard */,
+				0147214016A7874A00D19F5D /* ViewController.h */,
+				0147214116A7874A00D19F5D /* ViewController.m */,
+				0147212C16A7874A00D19F5D /* Supporting Files */,
+			);
+			path = "Fifty Shades Of Grey";
+			sourceTree = "<group>";
+		};
+		0147212C16A7874A00D19F5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0147212D16A7874A00D19F5D /* Fifty Shades Of Grey-Info.plist */,
+				0147212E16A7874A00D19F5D /* InfoPlist.strings */,
+				0147213116A7874A00D19F5D /* main.m */,
+				0147213316A7874A00D19F5D /* Fifty Shades Of Grey-Prefix.pch */,
+				0147213716A7874A00D19F5D /* Default.png */,
+				0147213916A7874A00D19F5D /* Default@2x.png */,
+				0147213B16A7874A00D19F5D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0147214F16A7874A00D19F5D /* Fifty Shades Of GreyTests */ = {
+			isa = PBXGroup;
+			children = (
+				0147215516A7874A00D19F5D /* Fifty_Shades_Of_GreyTests.h */,
+				0147215616A7874A00D19F5D /* Fifty_Shades_Of_GreyTests.m */,
+				0147215016A7874A00D19F5D /* Supporting Files */,
+			);
+			path = "Fifty Shades Of GreyTests";
+			sourceTree = "<group>";
+		};
+		0147215016A7874A00D19F5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0147215116A7874A00D19F5D /* Fifty Shades Of GreyTests-Info.plist */,
+				0147215216A7874A00D19F5D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0147212016A7874A00D19F5D /* Fifty Shades Of Grey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0147215A16A7874A00D19F5D /* Build configuration list for PBXNativeTarget "Fifty Shades Of Grey" */;
+			buildPhases = (
+				0147211D16A7874A00D19F5D /* Sources */,
+				0147211E16A7874A00D19F5D /* Frameworks */,
+				0147211F16A7874A00D19F5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fifty Shades Of Grey";
+			productName = "Fifty Shades Of Grey";
+			productReference = 0147212116A7874A00D19F5D /* Fifty Shades Of Grey.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0147214716A7874A00D19F5D /* Fifty Shades Of GreyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0147215D16A7874A00D19F5D /* Build configuration list for PBXNativeTarget "Fifty Shades Of GreyTests" */;
+			buildPhases = (
+				0147214316A7874A00D19F5D /* Sources */,
+				0147214416A7874A00D19F5D /* Frameworks */,
+				0147214516A7874A00D19F5D /* Resources */,
+				0147214616A7874A00D19F5D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0147214E16A7874A00D19F5D /* PBXTargetDependency */,
+			);
+			name = "Fifty Shades Of GreyTests";
+			productName = "Fifty Shades Of GreyTests";
+			productReference = 0147214816A7874A00D19F5D /* Fifty Shades Of GreyTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0147211816A7874A00D19F5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Desire Gardner";
+			};
+			buildConfigurationList = 0147211B16A7874A00D19F5D /* Build configuration list for PBXProject "Fifty Shades Of Grey" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0147211616A7874A00D19F5D;
+			productRefGroup = 0147212216A7874A00D19F5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0147212016A7874A00D19F5D /* Fifty Shades Of Grey */,
+				0147214716A7874A00D19F5D /* Fifty Shades Of GreyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0147211F16A7874A00D19F5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0147213016A7874A00D19F5D /* InfoPlist.strings in Resources */,
+				0147213816A7874A00D19F5D /* Default.png in Resources */,
+				0147213A16A7874A00D19F5D /* Default@2x.png in Resources */,
+				0147213C16A7874A00D19F5D /* Default-568h@2x.png in Resources */,
+				0147213F16A7874A00D19F5D /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0147214516A7874A00D19F5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0147215416A7874A00D19F5D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0147214616A7874A00D19F5D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0147211D16A7874A00D19F5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0147213216A7874A00D19F5D /* main.m in Sources */,
+				0147213616A7874A00D19F5D /* AppDelegate.m in Sources */,
+				0147214216A7874A00D19F5D /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0147214316A7874A00D19F5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0147215716A7874A00D19F5D /* Fifty_Shades_Of_GreyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0147214E16A7874A00D19F5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0147212016A7874A00D19F5D /* Fifty Shades Of Grey */;
+			targetProxy = 0147214D16A7874A00D19F5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0147212E16A7874A00D19F5D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0147212F16A7874A00D19F5D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0147213D16A7874A00D19F5D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0147213E16A7874A00D19F5D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		0147215216A7874A00D19F5D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0147215316A7874A00D19F5D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0147215816A7874A00D19F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0147215916A7874A00D19F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0147215B16A7874A00D19F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fifty Shades Of Grey/Fifty Shades Of Grey-Prefix.pch";
+				INFOPLIST_FILE = "Fifty Shades Of Grey/Fifty Shades Of Grey-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0147215C16A7874A00D19F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fifty Shades Of Grey/Fifty Shades Of Grey-Prefix.pch";
+				INFOPLIST_FILE = "Fifty Shades Of Grey/Fifty Shades Of Grey-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0147215E16A7874A00D19F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fifty Shades Of Grey.app/Fifty Shades Of Grey";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fifty Shades Of Grey/Fifty Shades Of Grey-Prefix.pch";
+				INFOPLIST_FILE = "Fifty Shades Of GreyTests/Fifty Shades Of GreyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0147215F16A7874A00D19F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fifty Shades Of Grey.app/Fifty Shades Of Grey";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fifty Shades Of Grey/Fifty Shades Of Grey-Prefix.pch";
+				INFOPLIST_FILE = "Fifty Shades Of GreyTests/Fifty Shades Of GreyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0147211B16A7874A00D19F5D /* Build configuration list for PBXProject "Fifty Shades Of Grey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0147215816A7874A00D19F5D /* Debug */,
+				0147215916A7874A00D19F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0147215A16A7874A00D19F5D /* Build configuration list for PBXNativeTarget "Fifty Shades Of Grey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0147215B16A7874A00D19F5D /* Debug */,
+				0147215C16A7874A00D19F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0147215D16A7874A00D19F5D /* Build configuration list for PBXNativeTarget "Fifty Shades Of GreyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0147215E16A7874A00D19F5D /* Debug */,
+				0147215F16A7874A00D19F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0147211816A7874A00D19F5D /* Project object */;
+}
